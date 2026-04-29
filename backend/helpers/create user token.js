@@ -7,9 +7,9 @@ const createusertoken = async (user, req, res) => {
     }, 'fatec turma6 22042026' )
 
     res.status(201).json({
-        message:'Você está autenticado.',
+        message:'Você-está-autenticado.',
         token: token,
-        UserId: user._id,
+        userId: user._id,
 
     })
 }
