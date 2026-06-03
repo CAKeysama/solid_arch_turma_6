@@ -2,7 +2,7 @@ const router = require('express').Router()
 
 const UserController = require('../controllers/UserController')
 
-const verifyToken = require('../helpers/verify-token')
+const verifyToken = require('../helpers/check-token')
 const imageUpload = require('../helpers/image-upload')
 
 router.post('/register', UserController.register)
